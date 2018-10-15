@@ -1,10 +1,10 @@
-# MailslurpClient.UsercontrollerApi
+# MailslurpClient.UserControllerApi
 
 All URIs are relative to *https://api.mailslurp.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getUserUsingGET**](UsercontrollerApi.md#getUserUsingGET) | **GET** /user | Fetch a user
+[**getUserUsingGET**](UserControllerApi.md#getUserUsingGET) | **GET** /user | Fetch a user
 
 
 <a name="getUserUsingGET"></a>
@@ -19,7 +19,7 @@ Used by the dashboard to fetch user information.
 ```javascript
 var MailslurpClient = require('mailslurp-client');
 
-var apiInstance = new MailslurpClient.UsercontrollerApi();
+var apiInstance = new MailslurpClient.UserControllerApi();
 
 var jwtToken = "jwtToken_example"; // String | jwtToken
 
